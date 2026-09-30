@@ -11,9 +11,12 @@ const onAddTransaction = (event) => {
   const userDate = document.getElementById("date");
   const userDesc = document.getElementById("description");
 
-  if (checkedRadio == "" ||userAmount.value == "" || userCategory.value == "" ||userDate.value == ""
+  if (
+    !checkedRadio ||
+    userAmount.value == "" ||
+    userCategory.value == "" ||
+    userDate.value == ""
   ) {
-    alert("Please fill out all fields and select a transaction type.");
     return;
   }
 

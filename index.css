@@ -21,7 +21,6 @@ body {
   font-weight: 900;
   font-size: 40px;
   margin: 10px 0 30px;
- 
 }
 .mains-container {
   display: flex;
@@ -86,7 +85,6 @@ body {
   font-size: 25px;
   letter-spacing: 2px;
 }
-
 .forms form {
   width: 100%;
   max-width: 700px;
@@ -162,7 +160,6 @@ body {
 .forms button:hover {
   background-color: #ddd;
 }
-
 .filter {
   display: flex;
   justify-content: center;
@@ -241,7 +238,6 @@ body {
     align-items: stretch;
     gap: 10px;
   }
-
   .filter .input-group {
     width: 100%;
   }
