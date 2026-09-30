@@ -186,18 +186,14 @@ body {
   vertical-align: middle;
   white-space: nowrap;
 }
-
 .transactions-section th {
   text-align: center;
 }
-
 .transactions-section td {
   text-align: center;
 }
-
 .transactions-section td:nth-child(3) {
   white-space: normal;
-
   min-width: 180px;
 }
 .transactions-section td:last-child {
@@ -210,7 +206,6 @@ body {
   #head {
     padding: 15px;
   }
-
   .title {
     font-size: 32px;
     margin-bottom: 20px;
