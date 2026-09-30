@@ -21,6 +21,7 @@ body {
   font-weight: 900;
   font-size: 40px;
   margin: 10px 0 30px;
+ 
 }
 .mains-container {
   display: flex;
@@ -78,7 +79,6 @@ body {
   box-sizing: border-box;
   margin-bottom: 30px;
 }
-
 .forms h2 {
   text-align: center;
   margin: 0;
@@ -117,13 +117,11 @@ body {
   font-size: 15px;
   outline: none;
 }
-
 .input-group input:focus,
 .input-group select:focus,
 .input-group textarea:focus {
   border-color: white;
 }
-
 .input-group input::placeholder,
 .input-group textarea::placeholder {
   color: #888;
@@ -146,11 +144,9 @@ body {
   font-size: 15px;
   cursor: pointer;
 }
-
 .type-options input {
   accent-color: white;
 }
-
 .forms button {
   width: 100%;
   padding: 13px;
@@ -163,10 +159,10 @@ body {
   cursor: pointer;
   margin-top: 5px;
 }
-
 .forms button:hover {
   background-color: #ddd;
 }
+
 .filter {
   display: flex;
   justify-content: center;
@@ -180,7 +176,7 @@ body {
   margin-bottom: 0;
 }
 .transactions-section .table-responsive {
-  margin-top: 25px !important;
+  margin-top: 25px;
 }
 .transactions-section table {
   margin-bottom: 0;
@@ -255,6 +251,6 @@ body {
     width: 100%;
   }
   .transactions-section .table-responsive {
-    margin-top: 20px !important;
+    margin-top: 20px t;
   }
 }
